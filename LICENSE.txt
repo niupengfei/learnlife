@@ -1,0 +1,6 @@
+t help　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　#可查看git的常用命令
+git config --global user.name "Your Name Here"　　　　　　　　　　 #设置commit的署名
+git config --global user.email "your_email@example.com"　　　　　　#设置commit的email
+git config [--local|--global|--system] --list/-l　　　　　　　　　　#查看本地的global信息
+git config [--local|--global|--system] --unset[-all] user.name　　#删除user.name信息。如果user.name对应多个值，可用unset-all来删除
+git remote add XXX https://github.com/username/repo_name.git　 　　#设置github的连接
